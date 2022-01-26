@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* HEAD LINE */
+
+.head_line {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+    height: 30px;
+    width: auto;
+    /* padding-top: 10px; */
+    list-style-type: none;
+    
+    }
+
+.head_line_menu_left {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    list-style-type: none;
+    margin-left: 15px;
+    /* border-bottom: 1px solid #dfe4eb; */
+    
+}
+.head_line_menu_left li a {
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding-right: 20px;
+    height: 30px;
+    line-height: 30px;
+    color: rgb(180, 180, 180);
+}
+.head_line_menu_left li a:hover {
+    color: rgb(236, 175, 60);
+}
+
+.head_line_menu_right {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 30px;
+    list-style-type: none;
+    margin-right: 20px;
+    justify-content: right;
+
+
+}
+
+.head_line_menu_right li {
+    border-right: 1px solid #cbd4e0;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.head_line_menu_right li:hover {
+    background-color: rgb(236, 175, 60);
+}
+.head_line_menu_right li:hover a {
+    color: rgb(0, 0, 0);
+}
+
+
+.head_line_menu_right li a {
+    text-decoration: none;
+    line-height: 30px;
+    color: rgb(180, 180, 180);    
+}
+
+.head_line_menu_right li a:hover {
+    color: black;
+}
+
+.h_l_m_r_1 {
+    border-left: 1px solid #cbd4e0;
+}
+
+
+/* navigation */
+
+.nav_ul {
+    list-style-type: none;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.315);
+    height: 60px;
+}
+
+.nav_ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 700;
+    color: rgb(236, 175, 60);
+    padding-left: 55px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.nav_ul li:hover .nav_down {
+    display: block;
+}
+
+.nav_down {
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.185);
+    margin-top: 14px;
+    width: auto;
+    height: auto;
+    
+}
+.nav_down li {
+    height: 30px;
+}
+
+.nav_down li a {
+    padding: 5px 100px 5px 55px;
+    text-decoration: none;
+    font-size: 18px;
+    /* background-color: rgb(20, 220, 177); */
+}
+.nav_ul li a:hover {
+    background-color: rgba(220, 20, 60, 0.39);
+}
+.nav_down li a:hover {
+    background-color: rgba(224, 32, 70, 0.39);
+}
+
+/* PRODUCT */
+.background_image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
